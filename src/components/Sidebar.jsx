@@ -13,7 +13,7 @@ export default function Sidebar({ folders, notes, currentNoteId, onToggleFolder,
     <aside style={aside}>
       {/* Brand */}
       <div onClick={onHome} style={brand}>
-        <div style={brandName}>&gt; Jagadish's LS</div>
+        <div style={brandName}>📚 Jagadish's LS</div>
         <div style={brandSub}>learning space</div>
       </div>
 
